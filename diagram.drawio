@@ -1,0 +1,55 @@
+<mxfile host="app.diagrams.net" modified="2023-03-19T01:19:00.526Z" agent="5.0 (Linux; Android 12; SM-T860) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36" etag="DITUz7HAolThpvTGpCOb" version="21.0.8" type="github">
+  <diagram name="Page-1" id="nLbvi6ZJBXCYQwSjYoSn">
+    <mxGraphModel dx="873" dy="539" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="RUiYJEdA16EYByX2Mv_V-13" value="&lt;font style=&quot;font-size: 24px;&quot;&gt;Front End&lt;/font&gt;" style="whiteSpace=wrap;html=1;shape=mxgraph.basic.cloud_rect;shadow=1;fillStyle=solid;pointerEvents=1;fontFamily=Helvetica;fontSize=12;fontColor=#000000;fillColor=#99FF33;gradientColor=#F0FFE6;gradientDirection=north;labelBackgroundColor=none;labelPosition=center;verticalLabelPosition=top;align=center;verticalAlign=bottom;" vertex="1" parent="1">
+          <mxGeometry x="10" y="90" width="510" height="180" as="geometry" />
+        </mxCell>
+        <mxCell id="RUiYJEdA16EYByX2Mv_V-4" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0.5;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0;entryY=0.492;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="RUiYJEdA16EYByX2Mv_V-1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="100" y="179.51199999999994" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="70" y="180" />
+              <mxPoint x="70" y="180" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="RUiYJEdA16EYByX2Mv_V-1" value="Actor" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;" vertex="1" parent="1">
+          <mxGeometry x="30" y="150" width="30" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="RUiYJEdA16EYByX2Mv_V-11" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0;entryY=0;entryDx=80;entryDy=37.375;entryPerimeter=0;fontFamily=Helvetica;fontSize=12;fontColor=#000000;" edge="1" parent="1" source="RUiYJEdA16EYByX2Mv_V-5" target="RUiYJEdA16EYByX2Mv_V-8">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="RUiYJEdA16EYByX2Mv_V-5" value="Submits job in devops marketplace. No input to the job. Job uses user&#39;s Lan ID" style="shape=note;whiteSpace=wrap;html=1;backgroundOutline=1;fontColor=#000000;darkOpacity=0.05;fillColor=#FFF9B2;strokeColor=none;fillStyle=solid;direction=west;gradientDirection=north;gradientColor=#FFF2A1;shadow=1;size=3;pointerEvents=1;" vertex="1" parent="1">
+          <mxGeometry x="100" y="133.82" width="120" height="92.37" as="geometry" />
+        </mxCell>
+        <mxCell id="RUiYJEdA16EYByX2Mv_V-12" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontFamily=Helvetica;fontSize=12;fontColor=#000000;" edge="1" parent="1" source="RUiYJEdA16EYByX2Mv_V-8" target="RUiYJEdA16EYByX2Mv_V-10">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="RUiYJEdA16EYByX2Mv_V-8" value="Playbook triggered&lt;br&gt;in Ansible Tower" style="shape=note;whiteSpace=wrap;html=1;backgroundOutline=1;fontColor=#000000;darkOpacity=0.05;fillColor=#FFF9B2;strokeColor=none;fillStyle=solid;direction=west;gradientDirection=north;gradientColor=#FFF2A1;shadow=1;size=0;pointerEvents=1;fontFamily=Helvetica;fontSize=12;" vertex="1" parent="1">
+          <mxGeometry x="250" y="142.63" width="80" height="74.75" as="geometry" />
+        </mxCell>
+        <mxCell id="RUiYJEdA16EYByX2Mv_V-10" value="Playbook uses health services migration image and calls python script that creates trigger file on tool server" style="whiteSpace=wrap;html=1;aspect=fixed;shadow=1;fillStyle=solid;pointerEvents=1;fontFamily=Helvetica;fontSize=12;fontColor=#000000;fillColor=#FFF9B2;gradientColor=#FFF2A1;gradientDirection=north;" vertex="1" parent="1">
+          <mxGeometry x="360" y="125" width="110" height="110" as="geometry" />
+        </mxCell>
+        <mxCell id="RUiYJEdA16EYByX2Mv_V-46" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontFamily=Helvetica;fontSize=12;fontColor=#000000;" edge="1" parent="1" source="RUiYJEdA16EYByX2Mv_V-44" target="RUiYJEdA16EYByX2Mv_V-45">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="RUiYJEdA16EYByX2Mv_V-44" value="Cron job listening for trigger file" style="rounded=0;whiteSpace=wrap;html=1;shadow=1;fillStyle=solid;pointerEvents=1;fontFamily=Helvetica;fontSize=12;fontColor=#000000;fillColor=#FFF9B2;gradientColor=#FFF2A1;gradientDirection=north;" vertex="1" parent="1">
+          <mxGeometry x="20" y="340" width="100" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="RUiYJEdA16EYByX2Mv_V-48" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontFamily=Helvetica;fontSize=12;fontColor=#000000;" edge="1" parent="1" source="RUiYJEdA16EYByX2Mv_V-45" target="RUiYJEdA16EYByX2Mv_V-47">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="RUiYJEdA16EYByX2Mv_V-45" value="Cron job script kicks off ansible playbook to validate user needs their saml ID updated in GitHub" style="whiteSpace=wrap;html=1;fillColor=#FFF9B2;fontColor=#000000;rounded=0;shadow=1;fillStyle=solid;gradientColor=#FFF2A1;gradientDirection=north;" vertex="1" parent="1">
+          <mxGeometry x="180" y="332.5" width="135" height="85" as="geometry" />
+        </mxCell>
+        <mxCell id="RUiYJEdA16EYByX2Mv_V-47" value="Script is called from playbook to update user Samo ID in GitHub" style="whiteSpace=wrap;html=1;fillColor=#FFF9B2;fontColor=#000000;rounded=0;shadow=1;fillStyle=solid;gradientColor=#FFF2A1;gradientDirection=north;" vertex="1" parent="1">
+          <mxGeometry x="370" y="332.5" width="135" height="85" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
