@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2023-03-19T01:09:50.371Z" agent="5.0 (Linux; Android 12; SM-T860) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36" etag="uChWozPYu6ATJHBfvPwQ" version="21.0.8" type="github">
+<mxfile host="app.diagrams.net" modified="2023-03-19T01:19:00.526Z" agent="5.0 (Linux; Android 12; SM-T860) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36" etag="DITUz7HAolThpvTGpCOb" version="21.0.8" type="github">
   <diagram name="Page-1" id="nLbvi6ZJBXCYQwSjYoSn">
-    <mxGraphModel dx="652" dy="539" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="873" dy="539" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -33,6 +33,21 @@
         </mxCell>
         <mxCell id="RUiYJEdA16EYByX2Mv_V-10" value="Playbook uses health services migration image and calls python script that creates trigger file on tool server" style="whiteSpace=wrap;html=1;aspect=fixed;shadow=1;fillStyle=solid;pointerEvents=1;fontFamily=Helvetica;fontSize=12;fontColor=#000000;fillColor=#FFF9B2;gradientColor=#FFF2A1;gradientDirection=north;" vertex="1" parent="1">
           <mxGeometry x="360" y="125" width="110" height="110" as="geometry" />
+        </mxCell>
+        <mxCell id="RUiYJEdA16EYByX2Mv_V-46" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontFamily=Helvetica;fontSize=12;fontColor=#000000;" edge="1" parent="1" source="RUiYJEdA16EYByX2Mv_V-44" target="RUiYJEdA16EYByX2Mv_V-45">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="RUiYJEdA16EYByX2Mv_V-44" value="Cron job listening for trigger file" style="rounded=0;whiteSpace=wrap;html=1;shadow=1;fillStyle=solid;pointerEvents=1;fontFamily=Helvetica;fontSize=12;fontColor=#000000;fillColor=#FFF9B2;gradientColor=#FFF2A1;gradientDirection=north;" vertex="1" parent="1">
+          <mxGeometry x="20" y="340" width="100" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="RUiYJEdA16EYByX2Mv_V-48" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontFamily=Helvetica;fontSize=12;fontColor=#000000;" edge="1" parent="1" source="RUiYJEdA16EYByX2Mv_V-45" target="RUiYJEdA16EYByX2Mv_V-47">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="RUiYJEdA16EYByX2Mv_V-45" value="Cron job script kicks off ansible playbook to validate user needs their saml ID updated in GitHub" style="whiteSpace=wrap;html=1;fillColor=#FFF9B2;fontColor=#000000;rounded=0;shadow=1;fillStyle=solid;gradientColor=#FFF2A1;gradientDirection=north;" vertex="1" parent="1">
+          <mxGeometry x="180" y="332.5" width="135" height="85" as="geometry" />
+        </mxCell>
+        <mxCell id="RUiYJEdA16EYByX2Mv_V-47" value="Script is called from playbook to update user Samo ID in GitHub" style="whiteSpace=wrap;html=1;fillColor=#FFF9B2;fontColor=#000000;rounded=0;shadow=1;fillStyle=solid;gradientColor=#FFF2A1;gradientDirection=north;" vertex="1" parent="1">
+          <mxGeometry x="370" y="332.5" width="135" height="85" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
